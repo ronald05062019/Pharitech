@@ -5,7 +5,7 @@
 <script src="https://unpkg.com/bpmn-js@8.5.0/dist/bpmn-viewer.development.js"></script>
 <script>
   // URL del archivo BPMN subido
-  var url = 'assets/WatchTower.bpmn';
+  var url = 'WatchTower.bpmn';
 
   var BpmnViewer = window.BpmnJS;
   var viewer = new BpmnViewer({ container: '#bpmn-viewer' });
